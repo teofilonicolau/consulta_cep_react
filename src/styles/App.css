@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  /* Ajustado para garantir que o corpo ocupe toda a altura da janela */
+  margin: 0;
+  padding: 40px 20px;  /* Adicionado padding extra no topo e na base */
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+
+
+.App {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+   margin: auto;  /* Garantir que o formulário esteja centralizado verticalmente */
+}
+ 
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
